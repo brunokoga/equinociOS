@@ -161,8 +161,8 @@ Algo que tem me ajudado bastante nesse processo de aprendizado é ter a consciê
 Espero que compartilhar a minha experiência possa ser útil para você começar a entender um pouco mais desses paradigmas de programação. Caso queira se aprofundar mais, coloquei alguns links nas **Referências** abaixo.
 
 ###Agradecimentos
-* [Lars](https://twitter.com/larslockefeer) por me ensinar Swift e os conceitos do [BrightFutures](https://github.com/Thomvis/BrightFutures)
-* [Thomas](https://twitter.com/thomvis88) por ter escrito a [BrightFutures](https://github.com/Thomvis/BrightFutures)
+* [Lars](https://twitter.com/larslockefeer) por me ensinar Swift e os conceitos do [BrightFutures](https://github.com/Thomvis/BrightFutures);
+* [Thomas](https://twitter.com/thomvis88) por ter escrito a [BrightFutures](https://github.com/Thomvis/BrightFutures);
 * [Mentos](https://twitter.com/gsampaio) por ter sido a inspiração para eu criar meu snippet `;rac` no TextExpander.
 
 ###Referências
