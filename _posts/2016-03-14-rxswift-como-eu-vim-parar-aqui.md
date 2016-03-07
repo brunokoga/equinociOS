@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Como eu vim parar aqui?"
+title:      "RxSwift: como eu vim parar aqui?"
 subtitle:   "Minha experiência aprendendo programação reativa e funcional"
 date:       2016-03-14 00:00:00
 author:     "Bruno Koga"
@@ -89,7 +89,7 @@ E é aí que entra a mágica do Swift ser tão restrito em relação a tipos (ou
 
 > **Opinião:** novamente, a melhor forma - na minha opinião - de aprender os conceitos básicos de programação reativa é esse link: [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754).
 
-A idéia básica da programação reativa é que você trabalha em cima de _streams_ (fluxos, correntes, sequências) de dados. Cada _stream_ é uma sequência de eventos que acontecem em uma linha de tempo e podem emitir três tipos de "coisas": um valor, um erro ou um sinal de "finalizado". 
+A idéia básica da programação reativa é que você trabalha em cima de _streams_ (fluxos, correntes, sequências) de dados. Cada _stream_ é uma sequência de eventos que acontecem em uma linha de tempo e podem emitir três tipos de "coisas": um valor, um erro ou um _sinal de finalizado_.
 
 No nosso exemplo anterior, usando [BrightFutures]((https://github.com/Thomvis/BrightFutures)), a nossa entidade `Future` nada mais é do que um _stream_, que pode produzir um valor (e um sinal de "finalizado" logo em seguida) ou um erro.
 
