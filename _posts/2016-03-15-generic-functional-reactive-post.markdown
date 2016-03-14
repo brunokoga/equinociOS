@@ -11,7 +11,7 @@ category:   "functional"
 > `let currentJob = "desenvolvedor backend(java, ruby, c#) ".map { _ in "Desenvolvedor frontend(js) " }. map { _ in "desenvolvedor mobile (Objective-C, Java, C#" }.map { _ in "desenvolvedor iOS(Swift)" }`.
 > Estudante das artes de programação funcional e reativa
 
-Muitos desenvolvedores quando escutam falar de programação funcional e programação reativa assumem uma postura defensiva e a conversa tende a não sair do lugar. _"Mas o meu aplicativo ja esta 50% desenvolvido, não vale a pena mudar a arquitetura dele agora."_, ou então _"Eu só estou dando manutenção neste aplicativo, não tenho tempo para alterar a arquitetura dele."_, ou ainda _" Não posso mudar a arquitetura do projeto, porque ninguém mais da equipe sabe essa magia negra aí"_ são frases frequentes que vamos encontrar ao tentar sugerir a adoção desses paradigmas.
+Muitos desenvolvedores quando escutam falar de programação funcional e programação reativa assumem uma postura defensiva e a conversa tende a não sair do lugar. _"Mas o meu aplicativo já está 50% desenvolvido, não vale a pena mudar a arquitetura dele agora."_, ou então _"Eu só estou dando manutenção neste aplicativo, não tenho tempo para alterar a arquitetura dele."_, ou ainda _"Não posso mudar a arquitetura do projeto, porque ninguém mais da equipe sabe essa magia negra aí"_ são frases frequentes que vamos encontrar ao tentar sugerir a adoção desses paradigmas.
 
 Mas o que esses desenvolvedores não sabem é que programação funcional/reativa **não** necessita que você altere a arquitetura do seu projeto.
 
@@ -37,7 +37,7 @@ Um dos recursos mais interessantes do **Realm**, a lista com _live update_ permi
 
 Porém o **Realm** não tem suporte nativo para RxSwift. No entanto, é muito simples criar nossas próprias sequências de dados (**[Observables](https://github.com/ReactiveX/RxSwift/blob/master/Documentation/GettingStarted.md#observables-aka-sequences)**, como são chamados no RxSwift) e podemos nós mesmos adicionar esse suporte.
 
-**[@fpillet](https://twitter.com/fpillet)**(um usuário bem ativo da comunidade de RxSwift) fez um [gist](https://gist.github.com/fpillet/4ceb477eeb2705fb5159) adicionando este recurso ao **Realm** e nós vamos utilizar este gist no nosso projeto.
+**[@fpillet](https://twitter.com/fpillet)** (um usuário bem ativo da comunidade de RxSwift) fez um [gist](https://gist.github.com/fpillet/4ceb477eeb2705fb5159) adicionando este recurso ao **Realm** e nós vamos utilizar este gist no nosso projeto.
 
 Bom vamos ao código:
 
